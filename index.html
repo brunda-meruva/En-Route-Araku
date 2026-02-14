@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Route Araku</title>
+    <link rel="icon" type="image/png" href="./images/logo-araku.png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="araku-logo" src="./images/logo-araku.png" alt="logo"/>
+
+            <div class="brand-text">
+                <span class="brand-title">En Route Araku</span>
+                <span class="brand-slogan">Not all those who wander are lost</span>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 position-relative">
+            <div class="nav-indicator"></div>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#tour-packages">Tour Packages</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#resorts">Resorts</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#travel">Travel</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#best-places">Best Places To Visit</a></li>
+                <li><a class="dropdown-item" href="#things">Things To Do</a></li>
+                <li><a class="dropdown-item" href="#popular-destinations">Popular Destinations</a></li>
+                <li><a class="dropdown-item" href="#culture">Tribal Culture</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+                <li><a class="dropdown-item" href="#temp">Temperature</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- hero -->
+    <section id="home" class="hero-section">
+    <div class="container col-xxl-8 px-4 py-5 hero-section">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
+
+        <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/araku-1.jpg"
+            class="d-block mx-lg-auto img-fluid hero-image"
+            alt="Araku Valley"
+            width="700"
+            height="500">
+        </div>
+        <div class="col-lg-6">
+
+            <h1 class="hero-title">
+                Escape Life to Discover the Hidden Beauty of Araku Valley
+            </h1>
+
+            <p class="hero-subtitle">
+                Araku Valley, often called the "Ooty of Andhra Pradesh," is a scenic, eco-friendly hill station 115 km from Visakhapatnam in the Eastern Ghats. Renowned for its lush coffee plantations, misty valleys, and rich tribal culture, it offers a tranquil escape with key attractions like the 50-million-year-old Borra Caves and panoramic train journeys
+            </p>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+                <a href="#tour-packages" class="btn hero-btn-primary">
+                    Explore Packages
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Araku_Valley"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn hero-btn-secondary">
+                    Learn More
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-- TOUR PACKAGES SECTION -->
+    <section id="tour-packages" class="tour-section">
+
+        <h2 class="section-title">Tour Packages</h2>
+        <p class="section-subtitle">Explore the best of Araku Valley with our curated experiences</p>
+
+        <div class="card-container">
+
+            <!-- Couple Pack -->
+            <div class="card package-card">
+                <img src="./images/borra-caves.jpg" class="card-img-top" alt="Couple Pack">
+                <div class="card-body">
+                    <h5 class="card-title">Couple Pack</h5>
+
+                    <p class="card-price">₹4,999 per person</p>
+
+                    <p class="card-text">
+                        Borra caves <br>
+                        ⁠Katiki water falls <br>
+                        Coffee plantations <br>
+                        ⁠Galikonda view point <br>
+                        ⁠Chaparai waterfalls <br>
+                        Lambasingi view point <br>
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+
+            <!-- Friends Pack -->
+            <div class="card package-card">
+                <img src="./images/katika-waterfall.jpg" class="card-img-top" alt="Friends Pack">
+                <div class="card-body">
+                    <h5 class="card-title">Friends Pack</h5>
+
+                    <p class="card-price">₹3,999 per person</p>
+
+                    <p class="card-text">
+                        Borra caves <br>
+                        ⁠Kotthapalli water falls <br>
+                        Wooden bridge <br>
+                        Madagada view point <br>
+                        Padmapuram gardens <br>
+                        Thajangi reservoir <br>
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+
+            <!-- Family Pack -->
+            <div class="card package-card">
+                <img src="./images/wooden-bridge.jpg" class="card-img-top" alt="Family Pack">
+                <div class="card-body">
+                    <h5 class="card-title">Family Pack</h5>
+
+                    <p class="card-price">₹3,499 per person</p>
+
+                    <p class="card-text">
+                        Borra caves <br>
+                        Tribal museum <br>
+                        Wooden bridge <br>
+                        Chocolate factory <br>
+                        Vanjangi view point <br>
+                        Strawberry farms <br>
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- RESORTS SECTION -->
+    <section id="resorts" class="tour-section">
+
+        <h2 class="section-title">Resorts</h2>
+        <p class="section-subtitle">Stay close to nature with our handpicked resorts in Araku Valley</p>
+
+        <div class="card-container">
+
+            <!-- Luxury Resort -->
+            <div class="card package-card">
+                <img src="./images/resort-1.png" class="card-img-top" alt="Luxury Resort">
+                <div class="card-body">
+
+                    <h5 class="card-title">Luxury Resort</h5>
+
+                    <p class="card-price">₹4,999 per night</p>
+
+                    <p class="card-text">
+                        Valley view rooms <br>
+                        Private balcony <br>
+                        Restaurant & café <br>
+                        Bonfire experience <br>
+                        Swimming Pool <br>
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+
+                </div>
+            </div>
+
+
+            <!-- Nature Resort -->
+            <div class="card package-card">
+                <img src="./images/resort-2.png" class="card-img-top" alt="Nature Resort">
+                <div class="card-body">
+
+                    <h5 class="card-title">Nature Resort</h5>
+
+                    <p class="card-price">₹3,999 per night</p>
+
+                    <p class="card-text">
+                        Forest-surrounded cottages <br>
+                        Mountain view rooms <br>
+                        Campfire & outdoor seating <br>
+                        Guided nature walks <br>
+                        Sunrise viewpoint access <br>
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+
+                </div>
+            </div>
+
+
+            <!-- Budget Resort -->
+            <div class="card package-card">
+                <img src="./images/resort-3.png" class="card-img-top" alt="Budget Resort">
+                <div class="card-body">
+
+                    <h5 class="card-title">Budget Resort</h5>
+
+                    <p class="card-price">₹2,999 per night</p>
+
+                    <p class="card-text">
+                        Comfortable rooms <br>
+                        Scenic surroundings <br>
+                        Camping Experience <br>
+                        Restaurant access <br>
+                        Family-friendly stay <br>
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- TRAVEL SECTION -->
+    <section id="travel" class="tour-section">
+
+        <h2 class="section-title">Travel Services</h2>
+
+        <p class="section-subtitle">
+            Comfortable and reliable transportation options for your Araku experience
+        </p>
+
+        <div class="card-container">
+
+            <!-- SUV -->
+            <div class="card package-card">
+
+                <img src="./images/travel-1.png" class="card-img-top" alt="SUV Travel">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">SUV</h5>
+
+                    <p class="card-text">
+                        Couples, small families, budget trips & highway travel
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Tempo Traveller -->
+            <div class="card package-card">
+
+                <img src="./images/travel-2.png" class="card-img-top" alt="Tempo Traveller">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Tempo Traveller</h5>
+
+                    <p class="card-text">
+                        Family trips, group travel, <br>hill drives  <br>
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Mini Bus -->
+            <div class="card package-card">
+
+                <img src="./images/travel-3.png" class="card-img-top" alt="Mini Bus">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Mini Bus</h5>
+
+                    <p class="card-text">
+                        Large groups, corporate trips, weddings
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- More -->
+    <!-- Best Places to visit -->
+    <section id="best-places" class="places-section">
+        <h2 class="section-title">Best Places To Visit</h2>
+        <p class="section-subtitle">
+            Discover the most beautiful destinations in Araku Valley
+        </p>
+        <div class="places-container">
+            <div class="place-card">
+                <img src="./images/borra-caves.jpg">
+                <div class="place-info">
+                    <h3>Borra Caves</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>These ancient Borra Caves are a geological marvel featuring stunning stalactite and stalagmite formations. Deep within the Ananthagiri Hills, the naturally lit limestone structures create a mystical atmosphere, making it a must-visit for adventure seekers and photography enthusiasts exploring the valley.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+            <!-- Place 2 -->
+            <div class="place-card">
+                <img src="./images/katika-waterfall.jpg">
+                <div class="place-info">
+                    <h3>Katiki Waterfalls</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>Reached via a thrilling jeep ride and a short trek, Katiki Waterfalls offers a refreshing escape into nature. The 50-foot cascade is surrounded by lush greenery, providing a perfect spot for travelers to relax and enjoy the famous local bamboo chicken.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+            <!-- Place 3 -->
+            <div class="place-card">
+                <img src="./images/coffee-plantation.jpg">
+                <div class="place-info">
+                    <h3>Coffee Plantations</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>The Araku Coffee Plantations blanket the hills in vibrant green, offering a fragrant and serene walking experience. Tourists can learn about organic farming practices and enjoy a fresh cup of world-class Arabica coffee while soaking in the panoramic views of the valley.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+            <!-- Place 4 -->
+            <div class="place-card">
+                <img src="./images/wooden-bridge.jpg">
+                <div class="place-info">
+                    <h3>Wooden Bridge</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>Tucked inside a coffee estate, the Aranya Wooden Bridge provides an enchanting canopy-level walk through the forest. It is a favorite spot for couples and photographers, offering a unique perspective of the towering trees, pepper vines, and the tranquil mountain landscape.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+            <!-- Place 5 -->
+            <div class="place-card">
+                <img src="./images/padmapuram-garden.jpg">
+                <div class="place-info">
+                    <h3>Padmapuram Gardens</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>Originally a wartime kitchen garden, Padmapuram Gardens is now a popular botanical park. Families enjoy the toy train rides and the chance to stay in "hanging cottages," which are unique tree-top huts nestled among exotic flowers and rare plant species.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+            <!-- Place 6 -->
+            <div class="place-card">
+                <img src="./images/tribal-museum.jpg">
+                <div class="place-info">
+                    <h3>Tribal Museum</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>The Araku Tribal Museum provides a deep dive into the indigenous culture of the Eastern Ghats. Through lifelike dioramas, traditional art, and handicrafts, tourists gain insight into the local lifestyle, making it an essential stop for those interested in regional history.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+            <!-- Place 7 -->
+            <div class="place-card">
+                <img src="./images/chocolate-factory.png">
+                <div class="place-info">
+                    <h3>Chocolate Factory</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>A sweet addition to any itinerary, the Araku Chocolate Factory showcases the bean-to-bar process. Visitors can watch how artisanal chocolates are made using local ingredients and purchase unique, handmade treats that often blend the rich flavors of regional cocoa and coffee.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+            <!-- Place 8 -->
+            <div class="place-card">
+                <img src="./images/strawberry-farm.png">
+                <div class="place-info">
+                    <h3>Strawberry Farms</h3>
+                </div>
+                <div class="place-overview">
+                    <h3>Overview</h3>
+                    <p>During the winter season, the Araku Strawberry Farms offer a delightful "pick-and-eat" experience. Tourists can walk through the rows of red berries, learn about hill-station agriculture, and buy fresh, organic produce directly from the local farmers in a scenic setting.</p>
+                    <a href="#contact" class="btn btn-theme">Plan Visit</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- THINGS TO DO (ADVENTURES AND FOOD) SECTION -->
+    <section id="things" class="tour-section">
+
+        <h2 class="section-title">Things To Do (Adventures and Food)</h2>
+        <p class="section-subtitle">Araku Valley 2026 beckons with untamed adventures—from waterfall rappelling and tribal hamlet treks to jeep safaris to eagle-eye peaks.<br> Uncover living heritage in bamboo workshops, coffee rituals, and starlit storytelling.</p>
+
+        <div class="card-container">
+
+            <!-- Trekking and Hiking -->
+            <div class="card package-card">
+                <img src="./images/things-1.jpg" class="card-img-top" alt="Trekking and Hiking ">
+                <div class="card-body">
+                    <h5 class="card-title">Trekking and Hiking</h5>
+
+                    <p class="card-text">
+                        Highest peak in Eastern Ghats → Madagada Viewpoint → Jindhagada Peak → Coffee estates.
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+
+            <!-- Bamboo Chicken & Coffee -->
+            <div class="card package-card">
+                <img src="./images/things-2.jpg" class="card-img-top" alt="Bamboo Chicken & Coffee">
+                <div class="card-body">
+                    <h5 class="card-title">Bamboo Chicken & Coffee</h5>
+
+                    <p class="card-text">
+                        Bongulo Chicken stalls → Araku Coffee House  →  Roasted Sweet Corn → Punit’s Fresh Strawberry 
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+
+            <!-- Water Sports -->
+            <div class="card package-card">
+                <img src="./images/things-3.jpg" class="card-img-top" alt="Water Sports">
+                <div class="card-body">
+                    <h5 class="card-title">Water Sports</h5>
+
+                    <p class="card-text">
+                        Descend beside Katiki waterfalls → Chaparai & Waterfalls → Kothapalli Waterfalls → Tarabu Waterfalls
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Camping & Workshops -->
+            <div class="card package-card">
+                <img src="./images/things-4.jpg" class="card-img-top" alt="Camping & Workshops">
+                <div class="card-body">
+                    <h5 class="card-title">Camping & Workshops</h5>
+
+                    <p class="card-text">
+                        Night Camping with Bonfire → Bamboo Craft Workshops → Coffee Plucking & Processing
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- POPULAR DESTINATIONS SECTION -->
+    <section id="popular-destinations" class="tour-section">
+
+        <h2 class="section-title">Popular Destinations</h2>
+        <p class="section-subtitle">Don't just stop at Araku, without exploring these popular nearby destinations</p>
+
+        <div class="card-container">
+
+            <!-- Vizag -->
+            <div class="card package-card">
+                <img src="./images/vizag.jpg" class="card-img-top" alt="Vizag">
+                <div class="card-body">
+                    <h5 class="card-title">Visakhapatnam</h5>
+
+                    <p class="card-price">The City Of Destiny</p>
+
+                    <p class="card-text">
+                        Visakhapatnam, commonly referred to as Vizag, is an exceptional coastal gem with stunning beaches, lush hillsides, clear skies and vibrant culture. Golden beaches provide stunning views and cool waters - the ideal getaway!
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+
+            <!-- Lambasingi -->
+            <div class="card package-card">
+                <img src="./images/lambasingi.jpg" class="card-img-top" alt="Lambasingi">
+                <div class="card-body">
+                    <h5 class="card-title">Lambasingi</h5>
+
+                    <p class="card-price">Andhra's Kashmir</p>
+
+                    <p class="card-text">
+                        Lambasingi Hills, commonly dubbed the "Kashmir of Andhra Pradesh," is famous for its exquisite beauty at dawn, especially during sunrise when misty fog fills the landscape to form an exquisite scene of peace and natural wonder.
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+
+            <!-- Vanjangi -->
+            <div class="card package-card">
+                <img src="./images/vanjangi.jpg" class="card-img-top" alt="Vanjangi">
+                <div class="card-body">
+                    <h5 class="card-title">Vanjangi</h5>
+
+                    <p class="card-price">Meghala Samudhram</p>
+
+                    <p class="card-text">
+                        Vanjangi Hills, an exquisite gem of nature, mesmerizes visitors with its lush landscapes, and timelessness beauty. Morning Meghala Samudram radiates mysticism; here clouds kiss the horizon while serenity reigns supreme.
+                    </p>
+
+                    <a href="#contact" class="btn btn-theme">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Tribal culture -->
+    <section id="culture" class="hero-section">
+    <div class="container col-xxl-8 px-4 py-5 hero-section">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
+
+        <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/dhimsa.jpg"
+            class="d-block mx-lg-auto img-fluid hero-image"
+            alt="Dhimsa Dance"
+            width="700"
+            height="500">
+        </div>
+        <div class="col-lg-6">
+
+            <h1 class="hero-title">
+                Discover the age-old traditions and cultural essence of the Tribes of Araku Valley
+            </h1>
+
+            <p class="hero-subtitle">
+                Araku’s tribal culture is a vibrant tapestry of 19 indigenous groups living in harmony with the Eastern Ghats. Their identity thrives through the rhythmic Dhimsa dance, sustainable forest-based living, and a deep spiritual bond with nature. This heritage is beautifully expressed in their colorful attire, hand-woven crafts, and a resilient community spirit that defines the valley’s soul.
+            </p>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+                <!-- <a href="#tour-packages" class="btn hero-btn-primary">
+                    Explore Packages
+                </a> -->
+
+                <a href="https://caleidoscope.in/art-culture/tribes-of-araku-valley"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn hero-btn-secondary">
+                    Learn More
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="tour-section">
+    <h2 class="section-title">Gallery</h2>
+    <p class="section-subtitle">A glimpse of our happy Customers and past tour memories</p>
+
+    <!-- CAROUSEL -->
+    <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./images/slide-1.png" class="d-block w-100" alt="Gallery Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/slide-2.png" class="d-block w-100" alt="Gallery Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/slide-3.png" class="d-block w-100" alt="Gallery Image 3">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/slide-4.png" class="d-block w-100" alt="Gallery Image 4">
+        </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- WHY US SECTION INSIDE GALLERY -->
+    <div class="container px-4 py-5" id="why-us">
+        <h2 class="pb-2 border-bottom">Why En Route Araku?</h2>
+        <p class="section-subtitle">The Name You Can Trust, The Experiences You’ll Cherish</p>
+
+        <div class="row g-4 py-3 row-cols-1 row-cols-md-2 row-cols-lg-4">
+
+        <!-- Feature 1 -->
+        <div class="col d-flex align-items-start why-box">
+            <div class="icon-square me-3">
+                <img src="./images/w-1.jpg" alt="Happy Guests">
+            </div>
+
+            <div class="why-text">
+                <h2 class="why-number">67090+</h2>
+                <h3 class="why-title">Happy Guests</h3>
+            </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col d-flex align-items-start why-box">
+            <div class="icon-square me-3">
+                <img src="./images/w-2.jpg" alt="Happy Guests">
+            </div>
+
+            <div class="why-text">
+                <h2 class="why-number">4+</h2>
+                <h3 class="why-title">Experience</h3>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col d-flex align-items-start why-box">
+            <div class="icon-square me-3">
+                <img src="./images/w-3.jpg" alt="Happy Guests">
+            </div>
+
+            <div class="why-text">
+                <h2 class="why-number">8597+</h2>
+                <h3 class="why-title">Tours</h3>
+            </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="col d-flex align-items-start why-box">
+            <div class="icon-square me-3">
+                <img src="./images/w-4.jpg" alt="Happy Guests">
+            </div>
+
+            <div class="why-text">
+                <h2 class="why-number">45+</h2>
+                <h3 class="why-title">Destinations</h3>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+    <section id="temp" class="tour-section">
+        <h2 class="section-title">Araku Valley Temperature Today</h2>
+        <div class="weather-map-wrapper">
+        <div class="weather-map">
+            <iframe 
+                src="https://embed.windy.com/embed2.html?lat=18.3273&lon=82.8833&detailLat=18.3273&detailLon=82.8833&zoom=10&level=surface&overlay=temp"
+                frameborder="0">
+            </iframe>
+        </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="hero-section">
+    <div class="container col-xxl-8 px-4 py-5 hero-section">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
+
+        <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/contact.png"
+            class="d-block mx-lg-auto img-fluid hero-image"
+            alt="Logo with Slogan"
+            width="700"
+            height="500">
+        </div>
+        <div class="col-lg-6">
+
+            <h1 class="hero-title">
+                Contact Us
+            </h1>
+
+            <p class="hero-subtitle">
+                We’re here to help you plan your <br> perfect Araku getaway from <br> serene hills to scenic waterfalls
+            </p>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+                <a href="#tour-packages" class="btn hero-btn-primary">
+                    Explore Packages
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Araku_Valley"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn hero-btn-secondary">
+                    Learn More
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-- footer -->
+    <footer class="araku-footer" id="footer">
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+
+            <div class="col">
+                <div class="footer-brand">
+                <img src="./images/logo-araku.png" class="footer-logo" alt="En Route Araku">
+                <h4>En Route Araku</h4>
+                <p>Not all those who wander are lost</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tour-packages">Tour Packages</a></li>
+                <li><a href="#resorts">Resorts</a></li>
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Popular Places</h5>
+                <ul class="footer-links">
+                <li>Borra Caves</li>
+                <li>Katiki Waterfalls</li>
+                <li>Vanjangi</li>
+                <li>Lambasingi</li>
+                <li>Coffee Plantations</li>
+                </ul>
+            </div>
+
+            <div class="col footer-reg">
+                <p class="footer-dev">Developed by</p>
+                <h2 class="footer-name">Brunda Meruva</h2>
+                <h3 class="footer-regno">Reg No: 23BCE7037</h3>
+
+                <img src="./images/vit-logo.png" class="footer-reg-img" alt="Registration Image">
+
+            </div>
+
+            </div>
+
+            <div class="footer-bottom text-center mt-4">
+            <p>© 2025 En Route Araku. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
